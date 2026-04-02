@@ -24,8 +24,8 @@ fun main(args: Array<String>) {
     else if (b == c && b < a) { println("The lowest number is $b (two same numbers)") }
     else {
         val lowest = if (a < b && a < c) { a }
-        else if (b < a && b < c) { b }
-        else { c }
+                     else if (b < a && b < c) { b }
+                     else { c }
 
         println("The lowest number is: $lowest")
 

@@ -8,12 +8,12 @@ fun main(args: Array<String>) {
     print("Enter the second number: ")
     val b = readlnOrNull()?.toIntOrNull()
     if (b == null) { println("Error! Enter Only Real Numbers!")
-    return}
+       return}
 
     print("Enter the third number: ")
     val c = readlnOrNull()?.toIntOrNull()
     if (c == null) { println("Error! Enter Only Real Numbers!")
-    return}
+       return}
 
     println("")
 
