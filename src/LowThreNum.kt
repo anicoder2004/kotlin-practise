@@ -1,19 +1,8 @@
 fun main(args: Array<String>) {
 
-    print("Enter the first number: ")
-    val a = readlnOrNull()?.toIntOrNull()
-    if (a == null) { println("Error! Enter Only Real Numbers!")
-        return}
-
-    print("Enter the second number: ")
-    val b = readlnOrNull()?.toIntOrNull()
-    if (b == null) { println("Error! Enter Only Real Numbers!")
-        return}
-
-    print("Enter the third number: ")
-    val c = readlnOrNull()?.toIntOrNull()
-    if (c == null) { println("Error! Enter Only Real Numbers!")
-        return}
+    val a = validatedInput("first number")
+    val b = validatedInput("second number")
+    val c = validatedInput("third number")
 
     println("")
 

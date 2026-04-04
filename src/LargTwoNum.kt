@@ -1,19 +1,12 @@
-fun main(args: Array<String>) {
+fun main() {
 
-    print("Enter the first number: ")
-    val a = readlnOrNull()?.toIntOrNull()
-    if (a == null) { println("Error! Enter Only Real Numbers!")
-        return}
-
-    print("Enter the second number: ")
-    val b = readlnOrNull()?.toIntOrNull()
-    if (b == null) { println("Error! Enter Only Real Numbers!")
-        return}
+    val a = validatedInput("first number")
+    val b = validatedInput("second number")
 
     println("")
 
-    if (a > b) { println("The largest number is $a") }
-    else if (b > a) { println("The largest number is $b") }
-    else { println("Both numbers are equal: $a") }
+    if (a > b) { println("The largest number is ${"%g".format(a)}") }
+    else if (b > a) { println("The largest number is ${"%g".format(b)}") }
+    else { println("Both numbers are equal: ${"%g".format(a)}") }
 
 }

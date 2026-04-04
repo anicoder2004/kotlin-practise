@@ -1,15 +1,9 @@
 import kotlin.math.sqrt
 
-fun main(args: Array<String>) {
+fun main() {
+    val num = validatedNum()
 
-    print("Enter a number: ")
-    val num = readlnOrNull()?.toIntOrNull()
-
-    println("")
-
-    if (num == null) { println("Error! Enter Only Real Numbers!")
-        return }
-    else if (num <= 1) { println("$num is not a prime number.")
+    if (num <= 1) { println("$num is not a prime number.")
         return }
 
     // Down bellow is fully gpt generated.

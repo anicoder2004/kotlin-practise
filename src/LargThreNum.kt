@@ -1,22 +1,22 @@
-fun main(args: Array<String>) {
+fun validatedInput(label: String): Double {
+    while (true) {
+        print("Enter the $label: ")
 
-    print("Enter the first number: ")
-    val a = readlnOrNull()?.toIntOrNull()
-    if (a == null) { println("Error! Enter Only Real Numbers!")
-        return}
+        val input = readlnOrNull()?.toDoubleOrNull()
 
-    print("Enter the second number: ")
-    val b = readlnOrNull()?.toIntOrNull()
-    if (b == null) { println("Error! Enter Only Real Numbers!")
-       return}
+        if (input != null) {
+            return input }
 
-    print("Enter the third number: ")
-    val c = readlnOrNull()?.toIntOrNull()
-    if (c == null) { println("Error! Enter Only Real Numbers!")
-       return}
+        println("Invalid input!! Please enter only numbers.")
+        println("") }
+}
+
+fun main() {
+    val a = validatedInput("first number")
+    val b = validatedInput("second number")
+    val c = validatedInput("third number")
 
     println("")
-
     if (a == b && b == c) { println("All three numbers are equal: $a") }
 
     else if (a == b && a > c) { println("The largest number is $a (two same numbers)") }

@@ -1,10 +1,22 @@
+fun validatedInput(): Int {
+    while (true) {
+        print("Enter your marks: ")
+
+        val input = readlnOrNull()?.toIntOrNull()
+        println("")
+
+        if (input != null && input > 0) {
+            return input }
+
+        println("Invalid input!! Please enter your correct marks in numbers.")
+        println("")
+    }
+}
+
 fun main() {
+    val mark = validatedInput()
 
-    print("Enter your marks: ")
-    val mark = readlnOrNull()?.toIntOrNull()
-
-    if (mark == null || mark<0 || mark>100) { println("Invalid input!") }
-    else if (mark >= 80) { println("Your Grade is: A+") }
+    if (mark >= 80) { println("Your Grade is: A+") }
     else if (mark >= 70) { println("Your Grade is: A") }
     else if (mark >= 60) { println("Your Grade is: A-") }
     else if (mark >= 50) { println("Your Grade is: B") }

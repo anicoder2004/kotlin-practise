@@ -1,22 +1,10 @@
 import kotlin.math.sqrt
 
-fun main(args: Array<String>) {
+fun main() {
 
-
-    print("Enter coefficient a: ")
-    val a = readlnOrNull()?.toIntOrNull()?.toDouble()
-    if (a == null) { println(""); println("Error! Enter Only Real Numbers!")
-        return}
-
-    print("Enter coefficient b: ")
-    val b = readlnOrNull()?.toIntOrNull()?.toDouble()
-    if (b == null) { println(""); println("Error! Enter Only Real Numbers!")
-        return}
-
-    print("Enter coefficient c: ")
-    val c = readlnOrNull()?.toIntOrNull()?.toDouble()
-    if (c == null) { println(""); println("Error! Enter Only Real Numbers!")
-        return}
+    val a = validatedInput("coefficient a")
+    val b = validatedInput("coefficient b")
+    val c = validatedInput("coefficient c")
 
     val d = b*b - 4*a*c
 
