@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="282049fd-445f-46a5-aea5-ec656c135c63" name="Changes" comment="nothing to commit, its just, keeping gradcalc in folder gives critical errors for some reason">
-      <change afterPath="$PROJECT_DIR$/src/Validate.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gradcalc/GradCalc_when.kt" afterDir="false" />
+    <list default="true" id="282049fd-445f-46a5-aea5-ec656c135c63" name="Changes" comment="renamed Validate.kt to ValidateCls.kt to understand its a class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LargThreNum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LargThreNum.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LargTwoNum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LargTwoNum.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeapYear.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeapYear.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LowThreNum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LowThreNum.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PosNegZero.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PosNegZero.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrimeNum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrimeNum.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuadraticEquation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuadraticEquation.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +48,7 @@
   "keyToString": {
     "Kotlin.GradCalc_ifelsKt.executor": "Run",
     "Kotlin.LargThreNumKt.executor": "Run",
+    "Kotlin.LargTwoNumKt.executor": "Run",
     "Kotlin.QuadraticEquationKt.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -81,9 +74,16 @@
       <recent name="gradcalc" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.QuadraticEquationKt">
+  <component name="RunManager" selected="Kotlin.LargTwoNumKt">
     <configuration name="LargThreNumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LargThreNumKt" />
+      <module name="KotPrac" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LargTwoNumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LargTwoNumKt" />
       <module name="KotPrac" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LargTwoNumKt" />
         <item itemvalue="Kotlin.QuadraticEquationKt" />
         <item itemvalue="Kotlin.LargThreNumKt" />
       </list>
@@ -111,7 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1776535113329</updated>
       <workItem from="1776535115190" duration="728000" />
-      <workItem from="1776535849961" duration="4837000" />
+      <workItem from="1776535849961" duration="6413000" />
     </task>
     <task id="LOCAL-00001" summary="nothing to commit, its just, keeping gradcalc in folder gives critical errors for some reason">
       <option name="closed" value="true" />
@@ -121,7 +122,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776535812533</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created Validate.kt Class and applied them in all files">
+      <option name="closed" value="true" />
+      <created>1776540863322</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776540863322</updated>
+    </task>
+    <task id="LOCAL-00003" summary="renamed Validate.kt to ValidateCls.kt to understand its a class">
+      <option name="closed" value="true" />
+      <created>1776540976681</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776540976681</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +146,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nothing to commit, its just, keeping gradcalc in folder gives critical errors for some reason" />
-    <option name="LAST_COMMIT_MESSAGE" value="nothing to commit, its just, keeping gradcalc in folder gives critical errors for some reason" />
+    <MESSAGE value="Created Validate.kt Class and applied them in all files" />
+    <MESSAGE value="renamed Validate.kt to ValidateCls.kt to understand its a class" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed Validate.kt to ValidateCls.kt to understand its a class" />
   </component>
 </project>

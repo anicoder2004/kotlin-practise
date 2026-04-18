@@ -7,8 +7,8 @@ fun main() {
 
     println("")
 
-    if (a > b) { println("The largest number is ${"%g".format(a)}") }
-    else if (b > a) { println("The largest number is ${"%g".format(b)}") }
-    else { println("Both numbers are equal: ${"%g".format(a)}") }
+    if (a > b) { println("The largest number is $a") }
+    else if (b > a) { println("The largest number is $b") }
+    else { println("Both numbers are equal: $a") }
 
 }
