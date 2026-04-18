@@ -2,9 +2,11 @@ import kotlin.math.sqrt
 
 fun main() {
 
-    val a = validatedInput("coefficient a")
-    val b = validatedInput("coefficient b")
-    val c = validatedInput("coefficient c")
+    val valid = Validate()
+
+    val a = valid.validatedInput("coefficient a","Please enter a valid number").toDouble()
+    val b = valid.validatedInput("coefficient b","Please enter a valid number").toDouble()
+    val c = valid.validatedInput("coefficient c","Please enter a valid number").toDouble()
 
     val d = b*b - 4*a*c
 

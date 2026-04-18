@@ -1,20 +1,10 @@
-fun validatedInput(label: String): Double {
-    while (true) {
-        print("Enter the $label: ")
-
-        val input = readlnOrNull()?.toDoubleOrNull()
-
-        if (input != null) {
-            return input }
-
-        println("Invalid input!! Please enter only numbers.")
-        println("") }
-}
-
 fun main() {
-    val a = validatedInput("first number")
-    val b = validatedInput("second number")
-    val c = validatedInput("third number")
+
+    val valid = Validate()
+
+    val a = valid.validatedInput("the first number","Please enter a valid number")
+    val b = valid.validatedInput("the second number","Please enter a valid number")
+    val c = valid.validatedInput("the third number","Please enter a valid number")
 
     println("")
     if (a == b && b == c) { println("All three numbers are equal: $a") }

@@ -1,7 +1,9 @@
 fun main() {
 
-    val a = validatedInput("first number")
-    val b = validatedInput("second number")
+    val valid = Validate()
+
+    val a = valid.validatedInput("the first number","Please enter a valid number")
+    val b = valid.validatedInput("the second number","Please enter a valid number")
 
     println("")
 

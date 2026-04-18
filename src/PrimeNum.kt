@@ -1,7 +1,9 @@
 import kotlin.math.sqrt
 
 fun main() {
-    val num = validatedNum()
+    val valid = Validate()
+
+    val num = valid.validatedInput("The Number","Please enter a valid number")
 
     if (num <= 1) { println("$num is not a prime number.")
         return }

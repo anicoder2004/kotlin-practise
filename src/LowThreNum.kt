@@ -1,8 +1,10 @@
 fun main(args: Array<String>) {
 
-    val a = validatedInput("first number")
-    val b = validatedInput("second number")
-    val c = validatedInput("third number")
+    val valid = Validate()
+
+    val a = valid.validatedInput("first number","Please enter a valid number")
+    val b = valid.validatedInput("second number","Please enter a valid number")
+    val c = valid.validatedInput("third number","Please enter a valid number")
 
     println("")
 

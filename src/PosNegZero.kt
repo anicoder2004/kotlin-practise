@@ -1,18 +1,7 @@
-fun validatedNum(): Int {
-    while (true) {
-        print("Enter a number: ")
-        val input = readlnOrNull()?.toIntOrNull()
-
-        if (input != null) { println("")
-            return input }
-
-        println("Error! Enter a Valid Number!")
-        println("")
-    }
-}
-
 fun main() {
-    val a = validatedNum()
+    val valid = Validate()
+
+    val a = valid.validatedInput("The Number","Please enter a valid number")
 
     println("")
 

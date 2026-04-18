@@ -1,37 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="282049fd-445f-46a5-aea5-ec656c135c63" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+    <list default="true" id="282049fd-445f-46a5-aea5-ec656c135c63" name="Changes" comment="nothing to commit, its just, keeping gradcalc in folder gives critical errors for some reason">
+      <change afterPath="$PROJECT_DIR$/src/Validate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gradcalc/GradCalc_when.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Grade Calculator/GradCalc-ifels.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KotPrac.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LargThreNum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LargThreNum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LargTwoNum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LargTwoNum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeapYear.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeapYear.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LowThreNum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LowThreNum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PosNegZero.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PosNegZero.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrimeNum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrimeNum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuadraticEquation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuadraticEquation.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "anicoder2004"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;anicoder2004&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/anicoder2004/kotlin-practise",
-    "accountId": "db813ca8-2719-4446-a253-c83503ea9d7f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/anicoder2004/kotlin-practise&quot;,
+    &quot;accountId&quot;: &quot;db813ca8-2719-4446-a253-c83503ea9d7f&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="3CXbxzOSS3X408G6yEmbdgBekUl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,19 +55,54 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Kotlin.GradCalc_ifelsKt.executor": "Run",
+    "Kotlin.LargThreNumKt.executor": "Run",
+    "Kotlin.QuadraticEquationKt.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Drive F - Anix Others/ANIX CSE/Coding Files/IntelliJ Files/KotPrac/src/gradcalc",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Drive F - Anix Others\ANIX CSE\Coding Files\IntelliJ Files\KotPrac\src\gradcalc" />
+    </key>
+    <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
+      <recent name="gradcalc" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.QuadraticEquationKt">
+    <configuration name="LargThreNumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LargThreNumKt" />
+      <module name="KotPrac" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuadraticEquationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuadraticEquationKt" />
+      <module name="KotPrac" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.QuadraticEquationKt" />
+        <item itemvalue="Kotlin.LargThreNumKt" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="282049fd-445f-46a5-aea5-ec656c135c63" name="Changes" comment="" />
@@ -59,11 +110,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1776535113329</updated>
-      <workItem from="1776535115190" duration="656000" />
+      <workItem from="1776535115190" duration="728000" />
+      <workItem from="1776535849961" duration="4837000" />
     </task>
+    <task id="LOCAL-00001" summary="nothing to commit, its just, keeping gradcalc in folder gives critical errors for some reason">
+      <option name="closed" value="true" />
+      <created>1776535812533</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776535812533</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="nothing to commit, its just, keeping gradcalc in folder gives critical errors for some reason" />
+    <option name="LAST_COMMIT_MESSAGE" value="nothing to commit, its just, keeping gradcalc in folder gives critical errors for some reason" />
   </component>
 </project>
