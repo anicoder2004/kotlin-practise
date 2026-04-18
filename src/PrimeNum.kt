@@ -1,7 +1,7 @@
 import kotlin.math.sqrt
 
 fun main() {
-    val valid = Validate()
+    val valid = ValidateCls()
 
     val num = valid.validatedInput("The Number","Please enter a valid number")
 

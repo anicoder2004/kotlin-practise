@@ -1,8 +1,8 @@
 package gradcalc
-import Validate
+import ValidateCls
 
 fun main() {
-    val valid = Validate()
+    val valid = ValidateCls()
 
     val mark = valid.validatedPostvInput("your mark","Enter a Valid Mark!")
 

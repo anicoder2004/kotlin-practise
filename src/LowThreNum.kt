@@ -1,6 +1,6 @@
 fun main(args: Array<String>) {
 
-    val valid = Validate()
+    val valid = ValidateCls()
 
     val a = valid.validatedInput("first number","Please enter a valid number")
     val b = valid.validatedInput("second number","Please enter a valid number")

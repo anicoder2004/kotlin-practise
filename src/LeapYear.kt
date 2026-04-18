@@ -1,5 +1,5 @@
 fun main(args: Array<String>) {
-    val valid = Validate()
+    val valid = ValidateCls()
 
     val year = valid.validatedPostvInput("the year","Enter a Valid Year!")
 

@@ -1,4 +1,4 @@
-class Validate {
+class ValidateCls {
 
     fun validatedInput(enter: String, plus: String): Int {
         while (true) {

@@ -2,7 +2,7 @@ import kotlin.math.sqrt
 
 fun main() {
 
-    val valid = Validate()
+    val valid = ValidateCls()
 
     val a = valid.validatedInput("coefficient a","Please enter a valid number").toDouble()
     val b = valid.validatedInput("coefficient b","Please enter a valid number").toDouble()
